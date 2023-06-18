@@ -41,4 +41,10 @@
     .projects ul li.projects__reversed-list {
         flex-direction: column;
     }
+    .projects ul li .projects__info{
+        max-width: 66rem;
+    }
+    .projects ul li .image img{
+        min-width: auto;
+    }
 }
