@@ -25,3 +25,16 @@
     flex: 1;
     max-width: 66rem;
 }
+@media only screen and (max-width: 760px){
+    .about {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .about .about__left {
+        max-width: 66rem;
+        text-align: center;
+    }
+    .about .about__right{
+        text-align: center;
+    }
+}

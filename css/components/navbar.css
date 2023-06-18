@@ -12,6 +12,12 @@
     display: flex;
     justify-content: space-between;
 }
+ .navbar  img{
+    width: 75%;
+    height: 75%;
+    cursor: pointer;
+}
+
 .navbar .navbar__content .navbar__links li{
     display: inline-block;
 }

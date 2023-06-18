@@ -1,14 +1,21 @@
-const navbar = document.querySelector('.navbar');
-const mobileNavbar = document.querySelector('.navbar__mobile');
-const button = document.querySelector('.burguer');
+window.addEventListener('DOMContentLoaded', function() {
+  const navbar = document.querySelector('.navbar');
+  const mobileNavbar = document.querySelector('.navbar__mobile');
+  const button = document.querySelector('.burger');
 
-button.addEventListener('click', function(){
-    mobileNavbar.classList.toggle('.active');
-}); 
+  if (button) {
+    button.addEventListener('click', function () {
+      mobileNavbar.classList.toggle('active');
+    });
+  } else {
+    console.error("O elemento com a classe 'burger' não foi encontrado.");
+  }
 
-window.addEventListener('scroll', function(){
-    if(this.window.pageYOffset > 0)
-    return navbar.classList.add('active');
-    return navbar.classList.remove('active');
-}
-); 
+  window.addEventListener('scroll', function () {
+    if (window.pageYOffset > 0) {
+      navbar.classList.add('active');
+    } else {
+      navbar.classList.remove('active');
+    }
+  });
+});
