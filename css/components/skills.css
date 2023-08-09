@@ -4,7 +4,7 @@
 }
 .skills .skills__content{
     padding: 6rem 4rem;
-    text-align: center;
+    text-align: center; 
 }
 .skills .skills__content .description{
     max-width: 56rem;
@@ -12,7 +12,7 @@
 }
 .skills .skills__content ul{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
     gap: 2rem;
 }
 .skills .skills__content ul li .image-container{
