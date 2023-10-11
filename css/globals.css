@@ -42,6 +42,18 @@ h1 {
   line-height: 4.5rem;
   color: var(--secondary-color);
 }
+.projetosClasse{
+  margin-bottom: 50px;
+}
+.image{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
 
 p,
 .p {
@@ -50,10 +62,7 @@ p,
   line-height: 3.5rem;
 }
 
-p:not(:last-of-type),
-.p:not(:last-of-type) {
-  margin-bottom: 2rem;
-}
+
 
 .btn {
   background-color: none;

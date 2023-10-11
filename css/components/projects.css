@@ -16,9 +16,6 @@
 .projects ul li.projects__reversed-list{
     flex-direction: row-reverse;
 }
-.projects ul li :not(:last-of-type){
-    margin-bottom: 12rem ;
-}
 .projects ul li .image img{
     width: 100%;
     min-width: 40rem;
